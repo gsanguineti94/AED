@@ -1,8 +1,14 @@
 /* Hello World
-GS
+Guido Sanguineti
 20220407
 */
 #include <iostream>
-int main() {
-std::cout << "Hello, World!\n";
+#include <fstream>
+using namespace std;
+int main()
+{
+    std::cout << "Hello, World!\n";
+    ofstream MyFile("output.txt");
+    MyFile << "Hello, World!";
+    MyFile.close();
 }
