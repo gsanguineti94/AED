@@ -1,2 +1,2 @@
 # https---github.com-gsanguineti94-AED
-compilador seleccionado Visual Studio Code
+compilador seleccionado Dev-C++ 5.11 hasta que configure VSC 1.66
